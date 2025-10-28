@@ -1,6 +1,6 @@
 # 🎥 AJ-HACKER YT Downloader v2.0
 A stylish YouTube downloader for **Termux**, designed like a “Hacking Tool” interface.  
-Created by **कामान** — simple, fast, and legal for personal use.
+Created by **TAKLA HACKER** — simple, fast, and legal for personal use.
 
 ---
 
@@ -28,37 +28,52 @@ You can change these from option `[04] Change Save Folders`.
 
 ## 🧰 Requirements
 
-Before running this script, install these once:
+Before using this tool, make sure you have:
+- Termux installed on your Android device
+- Internet connection
+- Storage permission enabled
+
+---
+
+## 🛠️ Installation (Clone from GitHub)
+
+Open **Termux** and run these commands step-by-step 👇
 
 ```bash
-pkg update -y
-pkg install python ffmpeg -y
+# Update and upgrade Termux packages
+pkg update && pkg upgrade -y
+
+# Install dependencies
+pkg install git python ffmpeg -y
+
+# Install yt-dlp
 pip install yt-dlp
-termux-setup-storage
+
+# Clone this repository
+git clone https://github.com/taklahacker/YT-DOWNLOADER.git
+
+# Go into the folder
+cd YT-DOWNLOADER
+
+# Give permission (optional)
+chmod +x yt-downloader.sh
+
+# Run the tool
+bash yt-downloader.sh
+```
+## ⚠️ Disclaimer
+
+This tool is created **only for educational and personal use**.
+
+- The developer of this tool **does not promote or encourage** downloading copyrighted content from YouTube or any other platform.
+- Users are solely responsible for how they use this tool.
+- Downloading or sharing copyrighted material **without the permission of the owner** may violate YouTube’s Terms of Service or applicable laws.
+- Use this tool **at your own risk** and **only for content you own the rights to** or that is **freely available for download**.
 
 
 ---
 
-## ▶️ Usage
-
-1. Save the script as:
-
-nano yt-downloader.sh
-
-Paste the full code and save (Ctrl + O, Enter, Ctrl + X).
-
-
-2. Make it executable:
-
-chmod +x yt-downloader.sh
-
-
-3. Run it:
-
-bash yt-downloader.sh
-
-
-4. Follow the on-screen menu:
+## 🤠 Script on-screen menu:
 
 [01] Information
 [02] Video Download
@@ -82,16 +97,6 @@ Audio convert failed? → pkg install ffmpeg -y
 Permission denied? → termux-setup-storage
 
 Video not saving? → Make sure folder path exists and writable.
-
-
-
----
-
-## ⚠️ Legal Disclaimer
-
-This tool is intended for personal, educational, or offline use only.
-Downloading copyrighted material without permission is not allowed.
-The developer and contributors take no responsibility for any misuse.
 
 
 ---
