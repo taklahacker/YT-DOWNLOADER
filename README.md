@@ -39,7 +39,7 @@ termux-setup-storage
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 
 1. Save the script as:
 
@@ -73,7 +73,7 @@ bash yt-downloader.sh
 
 ---
 
-🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 yt-dlp not found? → pip install yt-dlp
 
@@ -87,7 +87,7 @@ Video not saving? → Make sure folder path exists and writable.
 
 ---
 
-⚠️ Legal Disclaimer
+## ⚠️ Legal Disclaimer
 
 This tool is intended for personal, educational, or offline use only.
 Downloading copyrighted material without permission is not allowed.
@@ -96,7 +96,7 @@ The developer and contributors take no responsibility for any misuse.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Created by: कामान
 Tool name: AJ-HACKER YT Downloader
