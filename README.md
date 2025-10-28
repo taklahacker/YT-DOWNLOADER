@@ -103,7 +103,7 @@ Video not saving? → Make sure folder path exists and writable.
 
 ## 👨‍💻 Author
 
-Created by: कामान
+Created by: Takla Hacker
 Tool name: AJ-HACKER YT Downloader
 Version: 2.0
 Platform: Termux (Android)
