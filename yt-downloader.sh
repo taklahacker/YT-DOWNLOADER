@@ -31,7 +31,7 @@ draw_header() {
   echo -e "${CYN}└───────────────────────────────────────────────────────────────────────────┘${RST}"
   echo
   # subtitle / description
-  echo -e " ${WHT}A simple Termux tool to download YouTube video or MP3. Use for personal/offline only.${RST}"
+  echo -e " ${WHT}A simple Termux tool to download YouTube video or MP3. Use for personal.${RST}"
   echo
 }
 
